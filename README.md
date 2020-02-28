@@ -39,9 +39,7 @@
 ### AV1
 
 - [Статья про использование AV1](https://evilmartians.com/chronicles/better-web-video-with-av1-codec)
-
 - [Спека AV1](https://aomediacodec.github.io/av1-spec/av1-spec.pdf)
-
 - [Alliance for open media](https://aomedia.org/)
 
 ### Tools
