@@ -41,6 +41,7 @@
 - [Статья про использование AV1](https://evilmartians.com/chronicles/better-web-video-with-av1-codec)
 - [Спека AV1](https://aomediacodec.github.io/av1-spec/av1-spec.pdf)
 - [Alliance for open media](https://aomedia.org/)
+- [Cтатья про формат AVIF от Netfilix](https://netflixtechblog.com/avif-for-next-generation-image-coding-b1d75675fe4)
 
 ### Tools
 
@@ -66,7 +67,7 @@ djpeg -verbose -verbose your-file.jpg > /dev/nul
 ffmpeg -i your-file.jpg -c:v libaom-av1 -crf 48 -b:v 0 -map_metadata -1 -strict experimental your-file-av1.mp4
 ```
 
-Посмотреть moving vectors (куда двигаются блоки) на видео
+Посмотреть motion vectors (куда двигаются блоки) на видео
 
 ```
 ffplay -flags2 +export_mvs your-file.mov -vf codecview=pf+bf+bb
