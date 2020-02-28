@@ -54,7 +54,7 @@
 - [libvips](https://github.com/libvips/libvips)
 - [ImageMagick](https://github.com/ImageMagick/ImageMagick/)
 
-### Прикольные команды
+## Прикольные команды
 
 Посмотреть что лежит внутри jpeg
 
@@ -73,3 +73,7 @@ ffmpeg -i your-file.jpg -c:v libaom-av1 -crf 48 -b:v 0 -map_metadata -1 -strict 
 ```
 ffplay -flags2 +export_mvs your-file.mov -vf codecview=pf+bf+bb
 ```
+
+## Блог марсиан
+
+[Блог марсиан](https://evilmartians.com/chronicles)
